@@ -1,0 +1,272 @@
+* {
+    font-size: 18px;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Poppins, sans-serif;
+}
+
+
+.black {
+    background-color: black;
+    background-image: url(images/jeffy/a1712775-82d3-4dc1-a46f-cf77008fe54b.jpeg);
+    opacity: o.4;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+.min,.exp, .stories {
+    padding: 6rem;
+    padding-left: 8rem;
+}
+/* text */
+h1 {
+    font-size: 3rem;
+}
+p {
+    font-size: .6rem;
+}
+.exp {
+    padding: 3rem;
+    padding-left: 8rem;
+}
+.black h1 {
+    color: white;
+    line-height: 3rem;
+    padding-bottom: 1rem;
+    
+}
+.black p {
+    color: rgba(255, 255, 255, 0.753);
+}
+.minapp {
+    padding-bottom: 3rem;
+    color: rgba(0, 0, 0, 0.863);
+}
+
+.learn p {
+    line-height: 1.5rem;
+    color: rgba(0, 0, 0, 0.719);
+}
+.min p {
+    padding-bottom: 3rem;
+}
+hr {
+    width: 2%;
+}
+/* text ends */
+
+/* header section */
+.header {
+    display: flex;
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+    text-transform: capitalize;
+}
+.header img {
+    height: 80px;
+}
+.header li {
+    text-decoration: none;
+    list-style: none;
+    float: left;
+    text-align: center;
+    padding-left: 1rem;
+}
+.nav {
+    padding-left: 40rem;
+}
+/* header section ends  */
+
+/* intro section */
+.words1 {
+    padding: 7rem;
+    padding-left: 8rem;
+    text-align: left;
+    padding-right: 40rem;
+}
+/* intro section ends  */
+
+/* experience section */
+.learn button {
+    color: white;
+    background-color: black;
+    margin-top: 2rem;
+    font-size: 10px;
+    padding: .5rem;
+}
+.learn {
+    display: flex;
+}
+.flex {
+    gap: 3rem;
+    padding-top: 3rem;  
+}
+/* experience section ends */
+
+/* brand section */
+.min li {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    float: left; 
+    width: 10rem;
+}
+.min div {
+    padding-top: 3rem ;
+}
+/* brand section ends */
+
+/* stories section */
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 3rem;
+}
+.gallery p {
+    padding-bottom: 1rem;
+}
+.stories p {
+    padding-bottom: 3rem;
+}
+.gallery img {
+    height: 400px;
+    width: 480px;
+}
+/* stories section ends */
+
+/* blue section */
+.blue {
+    background-image: linear-gradient(to right, rgb(0,110,208), rgb(3,192,248));
+    color: white;
+    text-align: center;
+}
+.blue p {
+    font-size: .8rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.blue button {
+    color: rgba(0, 0, 0, 0.719);
+    font-size: 10px;
+    padding: .5rem;
+}
+/* blue section ends */
+
+/* footer section */
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.footer img {
+    height: 80px;
+}
+.footer li {
+    list-style: none;
+    /* padding-left: 13rem; */
+    text-align: center;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    font-size: .5rem;
+    
+}
+/* footer section ends  */
+
+/* media query */
+
+@media  screen and (min-width: 200px) and (max-width: 800px) {
+    .main {
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+    p {
+        font-size: .4rem;
+    }
+    .header img {
+        height: 60px;
+        width: 60px;
+    }
+    .header {
+        padding: 0;
+    }
+    .words1 {
+        padding: 2rem;
+        line-height: .5rem;
+    }
+    .exp {
+        padding: 2rem;
+    }
+    .min {
+        padding: 2rem;
+    }
+    .min li {
+        width: 4.5rem;
+        font-size: .6rem;
+    }
+    .stories {
+        padding: 2rem;
+    }
+    .gallery {
+        grid-template-columns: 1fr;
+        align-items: center;
+        /* justify-content: center; */
+        margin-top: 1.5rem;
+    }
+    .gallery img {
+        height: 50%;
+        width: 50%;
+    }
+    .minapp {
+        padding-bottom: 1.5rem;
+    }
+    .learn {
+        display: grid;
+        text-align: center;
+    }
+    .blue p  {
+        padding-top: .2rem;
+        padding-bottom: .2rem;
+        font-size: .6rem;
+    }
+    .blue button {
+        font-size: 8px;
+        padding: .3rem;
+    }
+    .header li {
+        float: left;
+        width: 4rem;
+        font-size: .5rem;
+        padding-left: 0;
+    }
+    .nav {
+        padding-left: 2rem;
+    }
+    .footer img {
+        height: 30px;
+    }
+    .gallery p {
+        padding-bottom: 0;
+    }
+    .stories p {
+        padding-bottom: 1.5rem;
+    }
+    .min li {
+        width: 3.805rem;
+    }        
+    .min div  {
+        padding-top: 1.5rem ;
+    }
+    .min p {
+        padding-bottom: 1.5rem;
+    }
+}
+
+
+
+
